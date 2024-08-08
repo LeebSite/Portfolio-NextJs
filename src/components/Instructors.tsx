@@ -72,21 +72,21 @@ const instructors = [
     name: "PostGre",
     image: PostGre,
   },
-  {
-    id: 11,
-    name: "graphQL",
-    image: GraphQL,
-  },
-  {
-    id: 12,
-    name: "AWS",
-    image: AWS,
-  },
-  {
-    id: 13,
-    name: "Docker",
-    image: Docker,
-  },
+  // {
+  //   id: 11,
+  //   name: "graphQL",
+  //   image: GraphQL,
+  // },
+  // {
+  //   id: 12,
+  //   name: "AWS",
+  //   image: AWS,
+  // },
+  // {
+  //   id: 13,
+  //   name: "Docker",
+  //   image: Docker,
+  // },
 ];
 
 function Instructors() {

@@ -1,84 +1,47 @@
+import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope } from 'react-icons/fa';
+
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400 py-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
-        <div>
-          <h2 className="text-white text-lg font-semibold mb-4">About Me</h2>
-          <p className="mb-4">
-            I am a highly skilled Fullstack Engineer with 2+ years of experience
-            having worked as Fullstack dev and having real-world experience in
-            Devops, Deployments etc
-          </p>
-        </div>
-        <div>
-          <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
-          <ul>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/harshiltomar/"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Linkedin
-              </a>
-            </li>
-            <li>
-              <a
-                href="mailto:harshiltomar20@gmail.com"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Gmail
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/harshiltomar"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Github
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://drive.google.com/file/d/1wNJ1J0mZ60GplJ7_qzP0oCkbC4fnz9RV/view"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Resume
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
+    <footer className="py-12" style={{ background: 'linear-gradient(to bottom, #000000, #132138, #163b78,  #17448c, #0a4fbb)' }}>
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-start gap-8 px-4 sm:px-6 lg:px-8">
+        <div className="text-left w-full sm:w-auto">
           <h2 className="text-white text-lg font-semibold mb-4">Follow Me</h2>
-          <div className="flex space-x-4">
+          <div className="flex space-x-7 justify-start sm:justify-start">
             <a
-              href="https://www.linkedin.com/in/harshiltomar/"
-              className="hover:text-white transition-colors duration-300"
+              href="https://www.linkedin.com/in/muhammad-ghalib-pradipa-151ab1246/"
+              className="text-gray-400 hover:text-white transition-transform duration-300 transform hover:scale-110"
             >
-              Linkedin
+              <FaLinkedin size={27} />
             </a>
             <a
-              href="https://twitter.com/home"
-              className="hover:text-white transition-colors duration-300"
+              href="https://www.instagram.com/gpradiipaa"
+              className="text-gray-400 hover:text-white transition-transform duration-300 transform hover:scale-110"
             >
-              Twitter
+              <FaInstagram size={27} />
             </a>
             <a
-              href="https://github.com/harshiltomar"
-              className="hover:text-white transition-colors duration-300"
+              href="https://github.com/LeebSite"
+              className="text-gray-400 hover:text-white transition-transform duration-300 transform hover:scale-110"
             >
-              Github
+              <FaGithub size={27} />
+            </a>
+            <a
+              href="mailto:mhd.ghalibpradipa@gmail.com"
+              className="text-gray-400 hover:text-white transition-transform duration-300 transform hover:scale-110"
+            >
+              <FaEnvelope size={27} />
             </a>
           </div>
         </div>
-        <div>
-          <h2 className="text-white text-lg font-semibold mb-4">Contact Me</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 110096</p>
-          <p>Email: harshiltomar20@gmail.com</p>
+        <div className="text-left w-full sm:w-auto">
+          <h2 className="text-white text-lg font-semibold mb-4">Contact Me!</h2>
+          <p className="font-light tracking-wide">Pekanbaru, Indonesia</p>
+          <p className="font-light tracking-wide">Jl. Eka Tunggal Perum.Purwodadi Indah Permai</p>
+          <p className="font-light tracking-wide ">Email : mhd.ghalibpradipa@gmail.com</p>
         </div>
       </div>
-      <p className="text-center text-lg pt-8 font-semibold text-white">
-        ⚡© Harshil Tomar™ ⚡
+      <p className="text-left ml-4 sm:text-center text-xl pt-8 font-semibold text-white font-family-poppins">
+        2024 Muhammad Ghalib Pradipa
       </p>
     </footer>
   );

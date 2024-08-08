@@ -72,8 +72,8 @@ const content = [
 function WorkEx() {
   return (
     <div className="p-10">
-      <h1 className="mt-20 md:mt-0 text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-        Work Experience
+      <h1 className="mt-20 md:mt-0 text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+        Experience
       </h1>
       <StickyScroll content={content} />
     </div>

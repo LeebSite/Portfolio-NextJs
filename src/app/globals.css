@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+/* globals.css */
+@font-face {
+  font-family: 'MyFont';
+  src: url('/fonts/MyFont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyFont', sans-serif;
+}
